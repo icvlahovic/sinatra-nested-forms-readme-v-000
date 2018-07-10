@@ -9,4 +9,8 @@ class Course
     COURSES << self
   end
 
+  def self.all
+    COURSES
+  end
+
 end
